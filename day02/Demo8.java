@@ -15,7 +15,7 @@ public class Demo8 {
 				if (i <= 9)
 					System.out.print(i);
 				else {
-					System.out.print((char) ('A' + i));
+					System.out.print((char) ('A' + i-10));
 				}
 			System.out.println();
 		}
