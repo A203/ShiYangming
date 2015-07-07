@@ -1,14 +1,13 @@
 package day02;
 
 public class Demo1 {
-	public static void main(String []args){
+	public static void main(String[] args) {
 		boolean studyHard = false;
-		if(studyHard){
-			System.out.println("¿¼ÊÔÍ¨¹ı");
-		}
-		else{
-			System.out.println("¿¼ÊÔÍ¨²»¹ı");
-			System.out.println("¼ÌĞøÅ¬Á¦£¡");
+		if (studyHard) {
+			System.out.println("è€ƒè¯•é€šè¿‡");
+		} else {
+			System.out.println("è€ƒè¯•é€šä¸è¿‡");
+			System.out.println("ç»§ç»­åŠªåŠ›ï¼");
 		}
 	}
 

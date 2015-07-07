@@ -5,19 +5,17 @@ import java.util.Scanner;
 public class Demo3 {
 
 	public static void main(String[] args) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO è‡ªåŠ¨ç”Ÿæˆçš„æ–¹æ³•å­˜æ ¹
 		Scanner scanner = new Scanner(System.in);
 		int score = scanner.nextInt();
 		scanner.close();
-		if(score<0||score>100){
-			System.out.println("ÊäÈë´íÎó");
-		}
-		else{
-			if(score>=60){
-				System.out.println("³É¼¨ºÏ¸ñ");
-			}
-			else {
-				System.out.println("³É¼¨²»ºÏ¸ñ");
+		if (score < 0 || score > 100) {
+			System.out.println("è¾“å…¥é”™è¯¯");
+		} else {
+			if (score >= 60) {
+				System.out.println("æˆç»©åˆæ ¼");
+			} else {
+				System.out.println("æˆç»©ä¸åˆæ ¼");
 			}
 		}
 

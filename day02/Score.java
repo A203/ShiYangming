@@ -1,64 +1,62 @@
 package day02;
 
 public class Score {
-	
-	
-	static void setScore(int a[][]){
-		for(int i = 0;i<20;i++)
-			for(int j = 0;j<5;j++)
-				a[i][j]=(int)(Math.random()*100);
+	static void setScore(int a[][]) {
+		for (int i = 0; i < 20; i++)
+			for (int j = 0; j < 5; j++)
+				a[i][j] = (int) (Math.random() * 100);
 	}
-	
-	static void printScore(int a[][]){
-		for(int i = 0;i<20;i++){
-			System.out.println("µÚ"+(i+1)+"¸öÍ¬Ñ§ÎåÃÅ¿ÎµÄ³É¼¨£º");
-			for(int j = 0;j<5; j++)
-				System.out.print(a[i][j]+"  ");
+
+	static void printScore(int a[][]) {
+		for (int i = 0; i < 20; i++) {
+			System.out.println("ç¬¬" + (i + 1) + "ä¸ªåŒå­¦äº”é—¨è¯¾çš„æˆç»©ï¼š");
+			for (int j = 0; j < 5; j++)
+				System.out.print(a[i][j] + "  ");
 			System.out.println("");
-		}		
+		}
 	}
-	
-	static int[] sumScore(int a[][]){
-		int[] b=new int[20];
-		for(int i = 0;i<20;i++){
-			for(int j = 0;j<5;j++)
-			b[i]+=a[i][j];
-		System.out.println("µÚ"+(i+1)+"¸öÍ¬Ñ§µÄ×Ü³É¼¨Îª"+b[i]+" ");
-		}		
+
+	static int[] sumScore(int a[][]) {
+		int[] b = new int[20];
+		for (int i = 0; i < 20; i++) {
+			for (int j = 0; j < 5; j++)
+				b[i] += a[i][j];
+			System.out.println("ç¬¬" + (i + 1) + "ä¸ªåŒå­¦çš„æ€»æˆç»©ä¸º" + b[i] + " ");
+		}
 		return b;
 	}
-	
-	static void  average(int a[][],int i){
+
+	static void average(int a[][], int i) {
 		int Average = 0;
-		for(int j=0;j<20;j++)
-			Average+=a[j][i];
+		for (int j = 0; j < 20; j++)
+			Average += a[j][i];
 		switch (i) {
 		case 0:
-			System.out.print("coreC++µÄÆ½¾ù³É¼¨ÊÇ");
+			System.out.print("coreC++çš„å¹³å‡æˆç»©æ˜¯");
 			break;
 		case 1:
-			System.out.print("corejavaµÄÆ½¾ù³É¼¨ÊÇ");
+			System.out.print("corejavaçš„å¹³å‡æˆç»©æ˜¯");
 			break;
 		case 2:
-			System.out.print("ServletµÄÆ½¾ù³É¼¨ÊÇ");
+			System.out.print("Servletçš„å¹³å‡æˆç»©æ˜¯");
 			break;
 		case 3:
-			System.out.print("JSPµÄÆ½¾ù³É¼¨ÊÇ");
+			System.out.print("JSPçš„å¹³å‡æˆç»©æ˜¯");
 			break;
 		case 4:
-			System.out.print("EJBµÄÆ½¾ù³É¼¨ÊÇ");
+			System.out.print("EJBçš„å¹³å‡æˆç»©æ˜¯");
 			break;
 		default:
 			return;
 		}
-		System.out.println(Average/20);		
+		System.out.println(Average / 20);
 	}
-	
+
 	public static void main(String[] args) {
-		int [][]Chengji=new int[20][5];
+		int[][] Chengji = new int[20][5];
 		setScore(Chengji);
 		printScore(Chengji);
 		average(Chengji, 4);
-		sumScore(Chengji);		
+		sumScore(Chengji);
 	}
 }

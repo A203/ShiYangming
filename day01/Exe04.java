@@ -6,16 +6,16 @@ import java.util.Scanner;
 public class Exe04 {
 	
 	static void print(ArrayList<String> A){
-		System.out.println("Ñ§ÉúĞÕÃû:");
+		System.out.println("å­¦ç”Ÿå§“å:");
 		for(int i=0;i<A.size();i++)
 			System.out.println(A.get(i));
 	}	
 	
 	static void show(){
-		System.out.println("| 1. Ôö¼Ó1¸öÑ§Éú |");
-		System.out.println("| 2. ÏÔÊ¾ËùÓĞÑ§Éú |");
-		System.out.println("| 3. ÍË³ö³ÌĞò |");
-		System.out.println("| ÇëÊäÈëÑ¡Ôñ£¨1-3£©£º");
+		System.out.println("| 1. å¢åŠ 1ä¸ªå­¦ç”Ÿ |");
+		System.out.println("| 2. æ˜¾ç¤ºæ‰€æœ‰å­¦ç”Ÿ |");
+		System.out.println("| 3. é€€å‡ºç¨‹åº |");
+		System.out.println("| è¯·è¾“å…¥é€‰æ‹©ï¼ˆ1-3ï¼‰ï¼š");
 	}
 	
 		public static void main(String[] args) {
@@ -26,7 +26,7 @@ public class Exe04 {
 			Scanner scanner = new Scanner(System.in);
 			switch (scanner.next()) {
 			case "1":	
-				System.out.println("ÇëÊäÈëÑ§ÉúĞÕÃû:");
+				System.out.println("è¯·è¾“å…¥å­¦ç”Ÿå§“å:");
 				Student.add(scanner.next());
 				show();
 				break;
@@ -37,7 +37,7 @@ public class Exe04 {
 			case "3":				
 				return;
 			default:
-				System.out.println("ÇëÖØĞÂÑ¡Ôñ:");
+				System.out.println("è¯·é‡æ–°é€‰æ‹©:");
 			}		
 		}		
 	}

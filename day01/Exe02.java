@@ -3,9 +3,9 @@ package day01;
 public class Exe02 {
 
 	public static void main(String[] args) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+
 		char A = 'a';
-		char B = '°Ö'; 
+		char B = 'å§'; 
 		System.out.println("A = "+A+"\n"+"B = "+B);
 	}
 }

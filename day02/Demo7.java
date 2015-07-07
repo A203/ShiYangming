@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Demo7 {
 
 	public static void main(String[] args) {
-		// TODO 自动生成的方法存根
 		Scanner scanner = new Scanner(System.in);
 		int num = scanner.nextInt();
 		scanner.close();

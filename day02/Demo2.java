@@ -5,28 +5,23 @@ import java.util.Scanner;
 public class Demo2 {
 
 	public static void main(String[] args) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
-//¸ù¾ÝÑ§ÉúµÄ·ÖÊýÊä³öÑ§ÉúµÄ³É¼¨µÈ¼¶
+		// TODO è‡ªåŠ¨ç”Ÿæˆçš„æ–¹æ³•å­˜æ ¹
+		// æ ¹æ®å­¦ç”Ÿçš„åˆ†æ•°è¾“å‡ºå­¦ç”Ÿçš„æˆç»©ç­‰çº§
 		Scanner scanner = new Scanner(System.in);
 		int score = scanner.nextInt();
 		scanner.close();
-		if(score>100||score<0){
-			System.out.println("ÊäÈë´íÎó");
-		}
-		else if(score>=90){
-			System.out.println("µÈ¼¶ÎªA");
-		}
-		else if(score>=80){
-			System.out.println("µÈ¼¶ÎªB");
-		}
-		else if(score>=70){
-			System.out.println("µÈ¼¶ÎªC");
-		}
-		else if(score>=60){
-			System.out.println("µÈ¼¶ÎªD");
-		}
-		else{
-			System.out.println("µÈ¼¶ÎªE");
+		if (score > 100 || score < 0) {
+			System.out.println("è¾“å…¥é”™è¯¯");
+		} else if (score >= 90) {
+			System.out.println("ç­‰çº§ä¸ºA");
+		} else if (score >= 80) {
+			System.out.println("ç­‰çº§ä¸ºB");
+		} else if (score >= 70) {
+			System.out.println("ç­‰çº§ä¸ºC");
+		} else if (score >= 60) {
+			System.out.println("ç­‰çº§ä¸ºD");
+		} else {
+			System.out.println("ç­‰çº§ä¸ºE");
 		}
 	}
 

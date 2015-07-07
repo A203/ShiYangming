@@ -5,21 +5,37 @@ import java.util.Scanner;
 public class Demo4 {
 
 	public static void main(String[] args) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
-		Scanner scanner =new Scanner(System.in);
+		// TODO è‡ªåŠ¨ç”Ÿæˆçš„æ–¹æ³•å­˜æ ¹
+		Scanner scanner = new Scanner(System.in);
 		int day = scanner.nextInt();
 		scanner.close();
 		String monthString = "";
-		//ĞÇÆÚÒ»µ½ĞÇÆÚÈÕ£º1-7
+		// æ˜ŸæœŸä¸€åˆ°æ˜ŸæœŸæ—¥ï¼š1-7
 		switch (day) {
-		case 1:monthString="ĞÇÆÚÒ»";break;
-		case 2:monthString="ĞÇÆÚ¶ş";break;
-		case 3:monthString="ĞÇÆÚÈı";break;
-		case 4:monthString="ĞÇÆÚËÄ";break;
-		case 5:monthString="ĞÇÆÚÎå";break;
-		case 6:monthString="ĞÇÆÚÁù";break;
-		case 7:monthString="ĞÇÆÚÌì";break;			
-		default:monthString="´íÎóday";break;
+		case 1:
+			monthString = "æ˜ŸæœŸä¸€";
+			break;
+		case 2:
+			monthString = "æ˜ŸæœŸäºŒ";
+			break;
+		case 3:
+			monthString = "æ˜ŸæœŸä¸‰";
+			break;
+		case 4:
+			monthString = "æ˜ŸæœŸå››";
+			break;
+		case 5:
+			monthString = "æ˜ŸæœŸäº”";
+			break;
+		case 6:
+			monthString = "æ˜ŸæœŸå…­";
+			break;
+		case 7:
+			monthString = "æ˜ŸæœŸå¤©";
+			break;
+		default:
+			monthString = "é”™è¯¯day";
+			break;
 		}
 		System.out.println(monthString);
 

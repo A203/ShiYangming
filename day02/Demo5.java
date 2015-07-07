@@ -6,7 +6,6 @@ public class Demo5 {
 	};
 
 	public static void main(String[] args) {
-		// TODO 自动生成的方法存根
 		day c = day.Monday;
 		int i = 0;
 		switch (c) {
