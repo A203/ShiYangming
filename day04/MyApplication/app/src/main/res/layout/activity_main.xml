@@ -1,0 +1,55 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:rowCount="6">
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮1"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        />
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮2"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮3"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮4"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮5"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮6"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮7"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill_vertical"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮8"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill_vertical"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮9"/>
+</GridLayout>
+
+
+
+
+
+
